@@ -76,7 +76,7 @@ y_pred = model.predict(X_test)
 
 # Evaluation
 rmse = np.sqrt(mean_squared_error(y_test, y_pred))
-print(f"\n✅ Root Mean Squared Error: {rmse:.2f}")
+print(f"\nRoot Mean Squared Error: {rmse:.2f}")
 
 
 importance = model.feature_importances_
@@ -93,3 +93,4 @@ fig4 = px.bar(
     color_continuous_scale='Viridis'
 )
 fig4.show()
+
