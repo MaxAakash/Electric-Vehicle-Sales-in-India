@@ -60,6 +60,8 @@ pip install pandas numpy matplotlib seaborn plotly scikit-learn
 4. Run the script:
 ```bash
 python ev_sales_analysis.py
+
+Colab NoteBook  https://colab.research.google.com/drive/1E9ltmhEPwiFLeMp1mWh1YNfAKCdkcbAh?usp=sharing
 ```
 
 ---
